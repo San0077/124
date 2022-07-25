@@ -1,0 +1,80 @@
+1.	For the given JSON iterate over all for loops (for, for in, for of, forEach)
+
+                    
+//for loop
+var name=[“youtube”,”facebook”,”instagram”,”twitter”];
+
+for(var i=0;i<name.length;i++)
+{
+
+console.log(name[i]);
+}
+Output:
+youtube
+facebook
+instagram
+twitter
+
+//for of loop
+
+var name=[“youtube”,”facebook”,”instagram”,”twitter”];
+
+for( const n of name){
+console.log(n);
+}
+Output:
+youtube
+facebook
+instagram
+twitter
+
+//for in loop
+const symbols={
+yt=”youtube”,
+ig=”instagram”,
+fb=”facebook”,
+lco=”learncodeonline.in”
+}
+for(const n in symbols){
+console.log(n);
+}
+Output:
+yt
+Ig
+fb
+lcd
+
+foreach loop
+
+const symbols={
+yt=”youtube”,
+ig=”instagram”,
+fb=”facebook”,
+lco=”learncodeonline.in”
+}
+
+symbols.forEach((s)=>(console.log(s)));
+output;
+youtube
+facebook
+instagram
+twitter
+
+
+
+
+
+
+2.	Create your own resume data in JSON format
+
+[{“name”:”s.salinikumari”,
+“email”:salini4kamal@gmail.com”,
+“phone.no”:”4567299399”,
+“qualification”:”B.sc,B.Ed(mathematics)”,
+“B.Ed complition ”:”2018”,
+“B.sc complition”:2015
+“Higher secondary complition”:”2012”,
+“high school complition”:”2010”,
+“current location”:”Tirupur”
+“}]
+
